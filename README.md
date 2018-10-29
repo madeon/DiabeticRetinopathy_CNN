@@ -29,7 +29,6 @@ The original dataset contained 35.126 images in different sizes, shapes and colo
 | 2             | Moderate DR   | 5292             | 15%        |
 | 3             | Severe DR     | 873              | 2.5%       |
 | 4             | Proliferative DR | 708           | 2%         |
-|---------------|---------------|------------------|------------|
 |Total          | -             | 35.126           | 100%       |
 
 ## Training
