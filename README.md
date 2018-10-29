@@ -19,10 +19,11 @@ Each image must be classified using the following scale:
 
 The original dataset contained 35.126 images in different sizes, shapes and colors. The image distribution is as follows:
 
-| Class         | Name          |
-| ------------- | ------------- |
-| 0  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Class         | Name          | Number of images | Percentage |
+| ------------- | ------------- | ---------------- | ---------- |
+| 0             | No DR         | 25.810           | 73.5%      |
+| 1             | Mild DR       | 2443             | 7%         |
+| 2             | Moderate DR   | 5292             | 15%        |
 
 ## Training
 
