@@ -7,7 +7,7 @@ path1 = "../data/AverageColor/"
 path2 = "../data/AverageColor2/"
 
 
-def normalize2(current_path, new_path):
+def normalize_colors(current_path, new_path):
     count = 0
     print(count)
 
@@ -19,7 +19,7 @@ def normalize2(current_path, new_path):
         print(count)
 
 
-normalize2(path1, path2)
+normalize_colors(path1, path2)
 
 
 
