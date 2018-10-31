@@ -3,6 +3,8 @@ from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 from PIL import Image
 
+image_size = 256
+
 
 def create_directory(directory):
     if not os.path.exists(directory):
@@ -57,7 +59,7 @@ def crop_and_resize_images(current_path, new_path):
 
                             original_image = image.crop((x, 0, x2, image.height))
 
-                            resized_image = original_image.resize([256, 256], Image.ANTIALIAS)
+                            resized_image = original_image.resize([image_size, image_size], Image.ANTIALIAS)
                             resized_image.save(os.path.join(new_path, item), 'JPEG')
                             total += 1
 
