@@ -34,7 +34,7 @@ The original dataset contained 35.126 images in different sizes, shapes and colo
 ## Built With
 
 * [TensorFlow] Backend for the Convolutional Neural Network
-* [Keras] - 
+* [Keras] - Neural Network API - Running on top of TensorFlow
 * [PyCharm] - IDE
 * [OpenCV] - Image Pre-Processing
 
