@@ -1,13 +1,20 @@
 import cv2 as cv
 import os
 
+
+##Important: Must be done before images are resized
+
 scale = 300
 
-path1 = "../data/AverageColor/"
-path2 = "../data/AverageColor2/"
+path1 = "../data/evenly_distributed_data_cropped/"
+path2 = "../data/evenly_distributed_data_cropped_average_color/"
 
+def create_directory(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 def normalize_colors(current_path, new_path):
+    create_directory(new_path)
     count = 0
     print(count)
 

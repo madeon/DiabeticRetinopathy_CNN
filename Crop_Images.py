@@ -58,9 +58,7 @@ def crop_and_resize_images(current_path, new_path):
                             print(image.getpixel((x2, y2)))
 
                             original_image = image.crop((x, 0, x2, image.height))
-
-                            resized_image = original_image.resize([image_size, image_size], Image.ANTIALIAS)
-                            resized_image.save(os.path.join(new_path, item), 'JPEG')
+                            original_image.save(os.path.join(new_path, item), 'JPEG')
                             total += 1
 
                             finishedRight = True
@@ -70,4 +68,4 @@ def crop_and_resize_images(current_path, new_path):
 
 
 if __name__ == '__main__':
-    crop_and_resize_images('H:/Bachelor data/distributed_data_set/', new_path='../data/evenly-distributed-256')
+    crop_and_resize_images('H:/Bachelor data/distributed_data_set/', new_path='../data/evenly_distributed_data_cropped')
