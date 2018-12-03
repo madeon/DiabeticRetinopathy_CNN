@@ -41,4 +41,4 @@ The original dataset contained 35.126 images in different sizes, shapes and colo
 * [OpenCV] - Image Pre-Processing
 * [Pandas] - Data Analysis
 * [NumPy] - Algebra
-* [sklearn]
+* [Sklearn]
